@@ -6,26 +6,36 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="general.css">
-    <link rel="stylesheet" href="layout.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="hamburger.css">
+
     <title>Web</title>
 </head>
 
 <body>
     <header>
-        <nav>
-            <ul>
-                <li><a href="index.html">Forside</a></li>
-                <li><a href="web.html">Web</a></li>
-                <li><a href="ux.html">UX</a></li>
-                <li><a href="animation.html">Animation</a></li>
-                <li><a href="indhold.html">Indhold</a></li>
-                <li><a href="portfolie.html">Portfolie</a></li>
+        <nav class="navbar">
+            <div class="logo2 hide1"><a href="index.html"><img src="imgs/logo2-8.png" alt="Logo til forsiden"></a></div>
+
+            <ul class="nav-menu">
+                <li class="nav-item"><a href="web.html">Web</a></li>
+                <li class="nav-item"><a href="ux.html">UX</a></li>
+                <li class="nav-item"><a href="animation.html">Animation</a></li>
+                <li class="logo hide"><a href="index.html"><img src="imgs/logo2-8.png" alt="Logo til forsiden"></a></li>
+                <li class="nav-item"><a href="indhold.html">Indhold</a></li>
+                <li class="nav-item"><a href="portfolie.html">Portfolie</a></li>
+                <li class="nav-item"><a href="ommig.html">Om mig</a></li>
             </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
         </nav>
     </header>
     <main></main>
     <footer></footer>
-
+    <script src="script.js"></script>
 </body>
 
 </html>

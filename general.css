@@ -4,15 +4,68 @@
   padding: 0;
   box-sizing: border-box;
 }
-body {
-  line-height: 1.5;
-}
+
 img {
   width: 100%;
   height: auto;
   display: block;
 }
 
+/**** text ****/
+
+h1{
+  color:#00178C;
+  font-family: 'roller_girfreepersonalusedemo';
+  font-size: 2rem;
+}
+
+h2{
+  color:#00178C;
+  font-family: 'roller_girfreepersonalusedemo';
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+h3{
+  color:#00178C;
+  font-family: 'roller_girfreepersonalusedemo';
+  font-size: 1rem;
+  text-align: center;
+}
+
 body{
-    background-color: #FFE3F3;
+  background-color: #FFE3F3;
+  line-height: 1.5;
+  margin: 1rem;
+  padding: 1rem;
+}
+
+
+/*** Forside ***/
+.container {
+  position: relative;
+  text-align: center;}
+  
+.forsideh1{
+  display: block;
+  font-family: 'roller_girfreepersonalusedemo';
+  font-size: 4rem;
+  text-align: center;
+  color:#00178C;
+}
+
+.forsideh2{
+  color:#00178C;
+  font-family: 'roller_girfreepersonalusedemo';
+  font-size: 3.5rem;
+  text-align: center;
+}
+
+/*** Logo ***/
+.logo{
+  display:grid;
+}
+
+@media (max-width:800px){
+
 }
