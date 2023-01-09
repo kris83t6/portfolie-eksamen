@@ -25,4 +25,3 @@ function sidenVises() {
   document.querySelector("#forside_container").classList.add("drej");
 }
 
-document.querySelector("#forside_container").addEventListener("animationiteration", drejEnIteration);

@@ -1,24 +1,35 @@
 /*** Fonts ***/
 
 @font-face {
-    font-family: 'roller_girfreepersonalusedemo';
-    src: url('fonts/rollergirl-freepersonalusedemo-webfont.woff2') format('woff2'),
-         url('fonts/rollergirl-freepersonalusedemo-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
+  font-family: "roller_girfreepersonalusedemo";
+  src: url("fonts/rollergirl-freepersonalusedemo-webfont.woff2") format("woff2"), url("fonts/rollergirl-freepersonalusedemo-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
 }
 
+
+  .forsideimg {
+    height: 100%;
+    width: auto;
+  }
+
+  .hide {
+    display: none;
+  }
+
+  .fh1 {
+    padding-top: 3rem;
+  }
+
+
+@media (min-width:800px){
 /**** Forside ****/
-/*.forsideimg {
-  
-}*/
 #forside_container {
   aspect-ratio: 1/1;
-   width: 50%;
+  width: 50%;
   height: auto;
-display: block;
-margin:auto;
+  display: block;
+  margin: auto;
   background-image: url("imgs/forsideimg-8.png");
   background-size: 100%;
   background-repeat: no-repeat;
@@ -31,7 +42,7 @@ margin:auto;
   animation-iteration-count: infinite;
   animation-timing-function: linear;
   animation-fill-mode: both;
-  transform-origin:center;
+  transform-origin: center;
 }
 
 @keyframes drej_kf {
@@ -40,46 +51,44 @@ margin:auto;
   }
 }
 /**** Grids ****/
-.grid1_1_1{
+.grid1_1 {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  gap:20px;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
   margin: 10px 0;
 }
 
-.grid1_1_1_1_1{
+.grid1_1_1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+  margin: 10px 0;
+}
+
+.grid1_1_1_1_1 {
   display: flex;
   flex-direction: row;
   align-items: center;
 }
 /*** Portfolie ***/
-.tema{
+.tema {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap:1rem;
+  gap: 3rem;
   margin-bottom: 1rem;
 }
-.hide1{
-    display:none;
+
+
+.hide1 {
+  display: none;
 }
 
-.order{
+.pport {
+  text-align: center;
+  font-size: 1.25rem;
+}
+
+.order {
   order: 1;
 }
-
-@media(max-width:800px){
-  .forsideimg{
-    height:100%;
-    width:auto;
-  }
-
-  .hide{
-        display: none;
-     }
-
-  .fh1{
-    padding-top: 3rem;
-  }
 }
-
-

@@ -16,36 +16,52 @@ img {
 h1{
   color:#00178C;
   font-family: 'roller_girfreepersonalusedemo';
-  font-size: 2rem;
+  font-size: 2.5rem;
+  text-align: center;
 }
 
 h2{
   color:#00178C;
   font-family: 'roller_girfreepersonalusedemo';
-  font-size: 1.5rem;
-  text-align: center;
+  font-size: 2rem;
+  text-align: left;
 }
 
 h3{
   color:#00178C;
   font-family: 'roller_girfreepersonalusedemo';
-  font-size: 1rem;
-  text-align: center;
+  font-size: 1.5rem;
+  text-align: left;
 }
 
 body{
   background-color: #FFE3F3;
   line-height: 1.5;
   margin: 1rem;
-  padding: 1rem;
+}
+
+p{
+  color:#00178C;
+  text-align: left;
+  font-family: 'Martel Sans', sans-serif;
+}
+
+.ppink{
+  color:#FFE3F3;
+}
+
+.pporto{
+  color: #FFE3F3;
+  font-weight: bold;
+  font-size: 1.25rem;
+}
+
+.h3pink{
+  color:#FFE3F3;
 }
 
 
 /*** Forside ***/
-.container {
-  position: relative;
-  text-align: center;}
-  
 .forsideh1{
   display: block;
   font-family: 'roller_girfreepersonalusedemo';
@@ -61,11 +77,35 @@ body{
   text-align: center;
 }
 
+/*** Portfolie ***/
+.bluebox {
+  background-color: #00178c;
+  padding: 2rem;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+
+.imgporto{
+  margin-bottom:1rem;
+}
+
 /*** Logo ***/
 .logo{
   display:grid;
 }
 
-@media (max-width:800px){
+@media (min-width:800px){
+.bluebox {
+  background-color: #00178c;
+  padding: 5rem;
+  margin:2rem;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
 
+.imgporto{
+  margin-bottom:1rem;
+}
+
+.styleemne{
+  height:94%;
+}
 }
