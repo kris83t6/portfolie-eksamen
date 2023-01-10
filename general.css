@@ -34,6 +34,10 @@ h3{
   text-align: left;
 }
 
+.h3om{
+  
+}
+
 body{
   background-color: #FFE3F3;
   line-height: 1.5;
@@ -46,12 +50,27 @@ p{
   font-family: 'Martel Sans', sans-serif;
 }
 
+ul li{
+  color:#00178C;
+  text-align: left;
+  font-family: 'Martel Sans', sans-serif;
+  margin-bottom: 1rem;
+}
+
 .ppink{
   color:#FFE3F3;
 }
 
 .pporto{
   color: #FFE3F3;
+  font-family: 'roller_girfreepersonalusedemo';
+  font-weight: bold;
+  font-size: 1.25rem;
+  margin-top: 1rem;
+}
+
+.pom{
+  color: #00178C;
   font-family: 'roller_girfreepersonalusedemo';
   font-weight: bold;
   font-size: 1.25rem;
@@ -132,5 +151,9 @@ p{
 
 .imglink img:hover{
 width: 107%;
+}
+
+.imgsoeg{
+  width: auto;
 }
 }
