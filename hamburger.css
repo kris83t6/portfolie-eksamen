@@ -25,8 +25,9 @@ a:hover{
 .navbar{
 min-height: 70px;
 display: flex;
-justify-content: space-around;
+justify-content: space-between;
 align-items: center;
+margin: 1rem;
 
 }
 
@@ -60,7 +61,7 @@ align-items: center;
         display:block; 
      }
      .hamburger.active bar:nth-child(2){
-        opacity: 0 ;
+        opacity: 0;
      }
      .hamburger.active bar:nth-child(1){
         transform: translateY(8px) rotate(45deg );
@@ -92,4 +93,5 @@ align-items: center;
      .logo2{
         display: block;
      }
-}        
+  
+  }    

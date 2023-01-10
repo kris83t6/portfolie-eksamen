@@ -13,68 +13,76 @@ img {
 
 /**** text ****/
 
-h1{
-  color:#00178C;
-  font-family: 'roller_girfreepersonalusedemo';
+h1 {
+  color: #00178c;
+  font-family: "roller_girfreepersonalusedemo";
   font-size: 2.5rem;
   text-align: center;
 }
 
-h2{
-  color:#00178C;
-  font-family: 'roller_girfreepersonalusedemo';
+h2 {
+  color: #00178c;
+  font-family: "roller_girfreepersonalusedemo";
   font-size: 2rem;
   text-align: left;
 }
 
-h3{
-  color:#00178C;
-  font-family: 'roller_girfreepersonalusedemo';
+h3 {
+  color: #00178c;
+  font-family: "roller_girfreepersonalusedemo";
   font-size: 1.5rem;
   text-align: left;
 }
 
-.h3om{
-  
+.h3om {
+  text-align: center;
 }
 
-body{
-  background-color: #FFE3F3;
+body {
+  background-color: #ffe3f3;
   line-height: 1.5;
-  margin: 1rem;
+  margin: 2rem;
 }
 
-p{
-  color:#00178C;
+p {
+  color: #00178c;
   text-align: left;
-  font-family: 'Martel Sans', sans-serif;
+  font-family: "Martel Sans", sans-serif;
 }
 
-ul li{
-  color:#00178C;
+ul li {
+  color: #00178c;
   text-align: left;
-  font-family: 'Martel Sans', sans-serif;
+  font-family: "Martel Sans", sans-serif;
   margin-bottom: 1rem;
 }
 
-.ppink{
-  color:#FFE3F3;
+.ppink {
+  color: #ffe3f3;
 }
 
-.pporto{
-  color: #FFE3F3;
-  font-family: 'roller_girfreepersonalusedemo';
+.plink {
+  color: #ffe3f3;
+  font-size: 0.75rem;
+}
+
+.pporto {
+  color: #ffe3f3;
+  font-family: "roller_girfreepersonalusedemo";
   font-weight: bold;
   font-size: 1.25rem;
   margin-top: 1rem;
 }
 
-.pom{
-  color: #00178C;
-  font-family: 'roller_girfreepersonalusedemo';
+.pom {
+  color: #00178c;
+  font-family: "roller_girfreepersonalusedemo";
   font-weight: bold;
   font-size: 1.25rem;
-  margin-top: 1rem;
+}
+
+.h2om {
+  margin-top: 2rem;
 }
 
 .pport {
@@ -82,26 +90,28 @@ ul li{
   font-size: 1.1rem;
 }
 
-
-.h3pink{
-  color:#FFE3F3;
+.h3pink {
+  color: #ffe3f3;
 }
-
 
 /*** Forside ***/
-.forsideh1{
+#forsideh1 {
   display: block;
-  font-family: 'roller_girfreepersonalusedemo';
+  font-family: "roller_girfreepersonalusedemo";
   font-size: 4rem;
   text-align: center;
-  color:#00178C;
+  color: #00178c;
 }
 
-.forsideh2{
-  color:#00178C;
-  font-family: 'roller_girfreepersonalusedemo';
-  font-size: 3.5rem;
+#forsideh2 {
+  color: #00178c;
+  font-family: "roller_girfreepersonalusedemo";
+  font-size: 3rem;
   text-align: center;
+}
+
+.fh1 {
+  padding-top: 3rem;
 }
 
 /*** Portfolie ***/
@@ -112,48 +122,80 @@ ul li{
   box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
 }
 
-.imgporto{
-  margin-bottom:1rem;
+.imgporto {
+  margin-bottom: 1rem;
 }
 
-.imgskitse{
-  height:90%;
+.imgskitse {
+  height: 90%;
 }
 
-.imgaktiv{
-  height:90%;
+.imgaktiv {
+  height: 90%;
 }
 
 /*** Logo ***/
-.logo{
-  display:grid;
+.logo {
+  display: grid;
 }
 
-@media (min-width:800px){
-.bluebox {
-  background-color: #00178c;
-  padding: 5rem;
-  margin:2rem;
-  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+.logo img:hover {
+  width: 105%;
 }
 
-.imgporto{
-  margin-bottom:1rem;
+.imgsoeg {
+  width: 100%;
+  margin-top: 1.5rem;
+  margin-bottom: 1rem;
 }
 
-.styleemne{
-  height:89%;
-}
+@media (min-width: 800px) {
+  .bluebox {
+    background-color: #00178c;
+    padding: 5rem;
+    margin: 2rem;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+  }
 
-.imglink{
- transition: 1s;
-}
+  .imgporto {
+    margin-bottom: 1rem;
+  }
 
-.imglink img:hover{
-width: 107%;
-}
+  .styleemne {
+    height: 89%;
+  }
 
-.imgsoeg{
-  width: auto;
-}
+  .imglink {
+    transition: 1s;
+  }
+
+  .imglink img:hover {
+    width: 107%;
+  }
+
+  .imgai {
+    width: 6%;
+  }
+
+  .imgsoeg {
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+
+  /*** Forside ***/
+  #forsideh1 {
+    display: block;
+    font-family: "roller_girfreepersonalusedemo";
+    font-size: 4rem;
+    text-align: center;
+    color: #00178c;
+    margin-top: 9rem;
+  }
+
+  #forsideh2 {
+    color: #00178c;
+    font-family: "roller_girfreepersonalusedemo";
+    font-size: 3rem;
+    text-align: center;
+  }
 }

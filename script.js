@@ -15,13 +15,13 @@ document.querySelectorAll(".nav-link").forEach((n) =>
   })
 );
 
-//Forside billede
+//Forside billede - tilføj #forside_container under querySelctor hvis den skal dreje
 
 window.addEventListener("load", sidenVises);
 
 function sidenVises() {
   console.log("sidenVises");
 
-  document.querySelector("#forside_container").classList.add("drej");
+  document.querySelector(".stjerne").classList.add("drej");
+  document.querySelector(".stjerne1").classList.add("drej");
 }
-
